@@ -1,4 +1,4 @@
-# 🧠 Hybrid GenAI Assistant: RAG + Text-to-SQL
+# Hybrid GenAI Assistant: RAG + Text-to-SQL
 
 This project demonstrates a modular **GenAI question-answering assistant** that uses a **language model as a dynamic router** to decide which tool to use for a given question.
 
@@ -18,7 +18,7 @@ At the core of the system is an **LLM-based router** that:
 
 ---
 
-## 🚀 What This Assistant Can Do
+## What This Assistant Can Do
 
 ### Text-to-SQL (Structured Queries)
 
@@ -54,7 +54,7 @@ This design makes the system **tool-aware**, **flexible**, and **extensible**.
 
 ---
 
-## 🧱 Architecture Overview
+## Architecture Overview
 
 High-level flow:
 
@@ -68,7 +68,7 @@ High-level flow:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 `hybrid-genai-assistant-rag-text2sql/`
 
@@ -94,7 +94,7 @@ High-level flow:
 
 ---
 
-## 📊 Data Overview
+## Data Overview
 
 ### Structured Data
 
@@ -111,19 +111,7 @@ High-level flow:
 
 ---
 
-## 🧪 Evaluation & Agentic Roadmap
 
-This project is evolving into a reusable framework for **agentic evaluation** and **multi-tool GenAI systems**.
-
-Planned extensions include:
-
-- ✅ Trace logging of routing and tool decisions  
-- 🧠 ReAct-style multi-step reasoning  
-- 🧪 Evaluation harness with assertions like `assert_tool_used("SQL")`  
-- 🤖 Mock agents for testing agent behavior  
-- 📈 Hybrid scoring (accuracy, relevance, coverage)
-
----
 
 ## 🛠 Tech Stack
 
@@ -135,14 +123,10 @@ Planned extensions include:
 
 ---
 
-## 👤 Author
+## Author
 
 **Lee Skelton**  
-Product & GenAI Systems | Sports Analytics | Agent Evaluation
 
-> Building FlyGPT2 and reusable frameworks for hybrid assistants and evaluation.
-
----
 
 ## 📌 Notes
 
